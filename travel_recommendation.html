@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TravelBloom - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <a href="travel_recommendation.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact Us</a>
+    <input type="text" id="searchInput" placeholder="Search for beaches, temples, or countries...">
+    <button onclick="searchPlaces()">Search</button>
+    <button onclick="clearResults()">Reset</button>
+  </nav>
+
+  <!-- Intro section -->
+  <section class="home">
+    <h1>Welcome to TravelBloom</h1>
+    <p>Your trusted guide for finding the most amazing travel spots worldwide.</p>
+  </section>
+
+  <!-- Results go here -->
+  <section id="results"></section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Follow us:</p>
+    <a href="#">🌍 Facebook</a> |
+    <a href="#">📷 Instagram</a> |
+    <a href="#">🐦 Twitter</a>
+  </footer>
+
+  <!-- Load JS -->
+  <script src="travel_recommendation.js"></script>
+</body>
+</html>
